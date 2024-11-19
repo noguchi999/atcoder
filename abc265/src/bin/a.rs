@@ -1,8 +1,11 @@
 fn main() {
     proconio::input! {
+        x: i32,
+        y: i32,
         n: i32,
-        a: i32,
-        b: i32,
     }
-    println!("{}", n - a + b);
+    let a = x * n;
+    let b = (n/3) * y + (n%3) * x;
+
+    println!("{}", a.min(b));
 }
