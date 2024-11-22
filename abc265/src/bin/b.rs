@@ -6,5 +6,5 @@ fn main() {
     };
 
     let mut a = [0; 3];
-    elt mut bonus = [0; n + 1];
+    let mut bonus = [0; n + 1];
 }
