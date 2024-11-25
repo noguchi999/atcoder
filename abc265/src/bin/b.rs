@@ -14,4 +14,8 @@ fn main() {
         };
         bonus[x] = y;
     }
+
+    for i in 0..n {
+        t -= a[i];
+    }
 }
