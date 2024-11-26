@@ -17,5 +17,9 @@ fn main() {
 
     for i in 0..n {
         t -= a[i];
+        if t <= 0 {
+            println!("No");
+            return;
+        }
     }
 }
