@@ -21,5 +21,6 @@ fn main() {
             println!("No");
             return;
         }
+        t += bonus[i+1];
     }
 }
