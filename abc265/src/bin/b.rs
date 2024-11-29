@@ -23,5 +23,5 @@ fn main() {
         }
         t += bonus[i+1];
     }
-    print!("Yes");
+    print!("No");
 }
