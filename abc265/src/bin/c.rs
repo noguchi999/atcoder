@@ -1,3 +1,6 @@
 fn main() {
-    todo!();
+    proconio::input! {
+        h: i32,
+        w: i32,
+    };
 }
