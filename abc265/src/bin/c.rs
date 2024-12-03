@@ -11,4 +11,6 @@ fn main() {
         };
         g.push(s);
     }
+
+    let visited = vec![vec![false; w]; h];
 }
