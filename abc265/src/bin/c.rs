@@ -13,4 +13,9 @@ fn main() {
     }
 
     let visited = vec![vec![false; w]; h];
+    let mut now_g = 0;
+    let mut now_r = 0;
+
+    for i in 0..(10_i32.pow(10)) {
+    }
 }
