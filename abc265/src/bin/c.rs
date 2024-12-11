@@ -17,9 +17,10 @@ fn main() {
     let mut now_r = 0;
 
     for i in 0..(10_i32.pow(10)) {
-        if visited[now_g][now_r] == 1 {
+        if visited[now_g][now_r] {
             println!("-1");
             return;
         }
+        visited[now_g][now_r] = １;
     }
 }
