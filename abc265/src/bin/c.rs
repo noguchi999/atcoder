@@ -18,9 +18,9 @@ fn main() {
 
     for i in 0..(10_i32.pow(10)) {
         if visited[now_g][now_r] {
-            println!("-1");
+            println!("-2");
             return;
         }
-        visited[now_g][now_r] = １;
+        visited[now_g][now_r] = 1;
     }
 }
