@@ -1,18 +1,20 @@
+use proconio::input;
+
 fn main() {
-    proconio::input! {
-        h: i32,
-        w: i32,
+    input! {
+        h: usize,
+        w: usize,
     };
-    let mut g = vec![];
+    let mut g: Vec<String> = Vec::new();
 
     for i in 0..h {
-        proconio::input! {
+        input! {
             s: String,
         };
         g.push(s);
     }
 
-    let visited = vec![vec![false; w]; h];
+    let mut visited = vec![vec![false; w]; h];
     let mut now_g = 0;
     let mut now_r = 0;
 
@@ -21,6 +23,15 @@ fn main() {
             println!("-1");
             return;
         }
-        visited[now_g][now_r] = 1;
+        visited[now_g][now_r] = true;
+
+        if g[now_g].chars().nth(now_r) == Some('U') {
+            if now_g >= 1 {
+                now_g -= 1;
+            } else {
+                println!("{}, {}", now_g + 1, now_r + 1);
+                std::process::exit(0);
+            }
+        }
     }
 }
