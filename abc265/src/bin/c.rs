@@ -33,5 +33,14 @@ fn main() {
                 std::process::exit(0);
             }
         }
+
+        if g[now_g].chars().nth(now_r) == Some('R') {
+            if now_g < w - 2 {
+                now_g += 1;
+            } else {
+                println!("{}, {}", now_g + 1, now_r + 1);
+                std::process::exit(0);
+            }
+        }
     }
 }
