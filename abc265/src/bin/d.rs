@@ -7,6 +7,10 @@ fn main() {
         q: usize,
         r: usize
     };
+    input! {
+        A: [i32],
+    };
 
     let mut p_list: Vec<usize> = Vec::new();
+    let mut S = A[0];
 }
