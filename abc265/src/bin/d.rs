@@ -13,4 +13,5 @@ fn main() {
 
     let mut p_list: Vec<usize> = Vec::new();
     let mut S = A[0];
+    let r = 0;
 }
