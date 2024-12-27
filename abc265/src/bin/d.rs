@@ -16,5 +16,7 @@ fn main() {
     let r = 0;
 
     for i in 1..n {
+        while r < n {
+        }
     }
 }
