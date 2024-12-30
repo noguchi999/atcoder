@@ -30,4 +30,6 @@ fn main() {
         }
         s -= a[l];
     }
+
+    let mut r_list: Vec<(usize, usize)> = Vec::new();
 }
