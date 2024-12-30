@@ -31,5 +31,11 @@ fn main() {
         s -= a[l];
     }
 
+    let mut q_list: Vec<(usize, usize)> = Vec::new();
+    let mut s = a[0];
+    let mut r = 0;
+    for l in 0..n {
+    }
+
     let mut r_list: Vec<(usize, usize)> = Vec::new();
 }
