@@ -35,6 +35,21 @@ fn main() {
     let mut s = a[0];
     let mut r = 0;
     for l in 0..n {
+        while r < n {
+            if s < q {
+                r += 1;
+                if r == n {
+                    break;
+                }
+                s += a[r];
+            } else {
+                if s == q {
+                    q_list.push((l, r));
+                }
+                break;
+            }
+        }
+        s -= a[l];
     }
 
     let mut r_list: Vec<(usize, usize)> = Vec::new();
