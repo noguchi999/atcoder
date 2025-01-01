@@ -53,4 +53,6 @@ fn main() {
     }
 
     let mut r_list: Vec<(usize, usize)> = Vec::new();
+    let mut s = a[0];
+    let mut r = 0;
 }
