@@ -72,4 +72,9 @@ fn main() {
         }
         s -= a[l];
     }
+
+    if p_list.is_empty() || q_list.is_empty() || r_list.is_empty() {
+        println!("No");
+        std::process::exit(0);
+    }
 }
