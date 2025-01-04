@@ -77,4 +77,7 @@ fn main() {
         println!("No");
         std::process::exit(0);
     }
+
+    let mut i2= 0;
+    let mut i3= 0;
 }
