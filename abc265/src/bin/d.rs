@@ -81,5 +81,6 @@ fn main() {
     let mut i2= 0;
     let mut i3= 0;
     for i1 in 0..p_list.len() {
+        let pr = p_list[i1].1;
     }
 }
