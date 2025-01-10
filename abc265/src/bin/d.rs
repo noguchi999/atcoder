@@ -85,6 +85,7 @@ fn main() {
         let ql = q_list[i2].0;
 
         while ql < pr + 1 {
+            i2 += 1;
         }
     }
 }
