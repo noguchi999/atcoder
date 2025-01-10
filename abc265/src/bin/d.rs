@@ -86,6 +86,10 @@ fn main() {
 
         while ql < pr + 1 {
             i2 += 1;
+            if i2 == q_list.len() {
+                println!("No");
+                std::process::exit(0);
+            }
         }
     }
 }
