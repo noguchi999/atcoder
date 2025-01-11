@@ -90,6 +90,7 @@ fn main() {
                 println!("No");
                 std::process::exit(0);
             }
+            ql = q_list[i2].0;
         }
     }
 }
