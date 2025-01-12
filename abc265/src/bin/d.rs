@@ -92,5 +92,8 @@ fn main() {
             }
             ql = q_list[i2].0;
         }
+
+        if ql == pr + 1 {
+        }
     }
 }
