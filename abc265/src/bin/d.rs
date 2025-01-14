@@ -94,6 +94,7 @@ fn main() {
         }
 
         if ql == pr + 1 {
+            let qr = q_list[i2].1;
         }
     }
 }
