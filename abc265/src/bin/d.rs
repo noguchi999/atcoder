@@ -95,6 +95,16 @@ fn main() {
 
         if ql == pr + 1 {
             let qr = q_list[i2].1;
+            let rl = r_list[i3].0;
+
+            while rl < qr + 1 {
+                i3 += 1;
+                if i3 == r_list.len() {
+                    println!("No");
+                    std::process::exit(0);
+                }
+                rl = r_list[i3].0;
+            }
         }
     }
 }
