@@ -105,6 +105,12 @@ fn main() {
                 }
                 rl = r_list[i3].0;
             }
+
+            if rl == qr + 1 {
+                println!("Yes");
+                std::process::exit(0);
+            }
         }
     }
+    print!("No");
 }
