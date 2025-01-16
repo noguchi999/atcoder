@@ -9,7 +9,6 @@ pub struct TimeKeeper {
 }
 
 impl TimeKeeper {
-    // Create a new instance with the total time limit (in milliseconds) and the maximum number of turns.
     pub fn new(time_threshold: i64, end_turn: i64) -> Self {
         let start_time = Instant::now();
         TimeKeeper {
@@ -21,13 +20,11 @@ impl TimeKeeper {
         }
     }
 
-    // Update the turn and the start time of the turn.
     pub fn set_turn(&mut self, t: i64) {
         self.turn = t;
         self.before_time = Instant::now();
     }
 
-    // Check if the allocated time for each turn has been exceeded.
     pub fn is_time_over(&self) -> bool {
         let now = Instant::now();
         let whole_diff = now.duration_since(self.start_time);
