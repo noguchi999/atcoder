@@ -1,9 +1,9 @@
 pub struct DfsSolver {
-    path: Vec<i32>,       // List of coordinates. The path currently being explored.
-    best_path: Vec<i32>,  // List of coordinates. The best path so far.
-    best_score: i32,      // The best score so far.
-    score: i32,           // The score of the path currently being explored.
-    remaining_search_cnt: i32,  // Remaining search count.
+    path: Vec<i32>,
+    best_path: Vec<i32>,
+    best_score: i32,
+    score: i32,
+    remaining_search_cnt: i32
 }
 
 impl DfsSolver {
