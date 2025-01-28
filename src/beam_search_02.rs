@@ -6,14 +6,12 @@ use crate::time_keeper::TimeKeeper;
 use std::io::{self, Write};
 
 const N: usize = 100;
-const K: usize = 10; // Adjust K as needed
+const K: usize = 10;
 
 struct Board {
-    // Define the structure of Board according to your requirements
 }
 
 fn read() -> [Board; N] {
-    // Implement the logic to read and return 100 Board instances
     [Board {}; N] // Placeholder
 }
 
