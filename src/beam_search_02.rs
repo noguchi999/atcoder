@@ -12,8 +12,7 @@ struct Board {
 }
 
 fn read() -> [Board; N] {
-    [Board {}; N] // Placeholder
-}
+    [Board {}; N]
 
 fn beam_search_action_with_time_threshold(
     state: &State,
