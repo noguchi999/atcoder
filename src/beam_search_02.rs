@@ -19,8 +19,7 @@ fn beam_search_action_with_time_threshold(
     beam_width: usize,
     time_threshold: i64,
 ) -> Vec<i32> {
-    // Implement the beam search logic
-    vec![] // Placeholder
+    vec![]
 }
 
 fn main() {
